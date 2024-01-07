@@ -3,33 +3,114 @@
     padding: 0;
 }
 
-.main-container {}
+
+/* banner part style here  */
 
 .banner {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)100%), url(../images/Banner\ Image.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
     width: 82%;
     margin: 50px auto;
     border-radius: 16px;
 }
 
-.banner h5 {
+.banner>h5 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
-    padding-top: 130px;
+    padding-top: 177px;
     margin-bottom: 0;
 }
 
-.banner h1 {
+.banner>h1 {
     color: #FFF;
     width: 632px;
-    margin: 0 auto;
+    margin: 16px auto;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
+
+/* main part style  */
+.main-container {
+    width: 82%;
+    margin: 50px auto;
+}
+
+/* new year off section  */
+.happy-new-year-off {
+    width: 60%;
+    text-align: center;
+    margin: 120px auto;
+}
+
+.happy-new-year-off>h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+}
+
+.happy-new-year-off>img {
+    width: 100%;
+}
+
+.happy-new-year-off>p {
+    color: #F00;
+    margin: 48px 0 16px 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.happy-new-year-off>h3 {
+    color: #070211;
+    text-align: center;
+    margin-bottom: 48px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* midnight party secction's styel start  */
+
+/* .midnight-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    gap: 94px;
+    border-radius: 16px;
+    padding: 68px 138px 67px 126px;
+}
+
+.midnight-info .midnight-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.midnight-info .midnight-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.midnight-info .midnight-join-btn {
+    background-color: #070211;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+} */
