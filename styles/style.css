@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {}
+
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)100%), url(../images/Banner\ Image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 82%;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.banner h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    padding-top: 130px;
+    margin-bottom: 0;
+}
+
+.banner h1 {
+    color: #FFF;
+    width: 632px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
