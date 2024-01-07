@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+/* common style  */
+.primary-title {
+    color: #F00;
+    margin: 48px 0 16px 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
 
 /* banner part style here  */
 
@@ -58,15 +66,6 @@
     width: 100%;
 }
 
-.happy-new-year-off>p {
-    color: #F00;
-    margin: 48px 0 16px 0;
-    text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-}
-
 .happy-new-year-off>h3 {
     color: #070211;
     text-align: center;
@@ -114,3 +113,77 @@
     font-size: 20px;
     font-weight: 700;
 } */
+
+.midnight-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    gap: 4%;
+    border-radius: 16px;
+    min-height: 600px;
+}
+
+.midnight-info {
+    width: 60%;
+    padding: 126px 0 142px 100px;
+}
+
+.midnight-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.midnight-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.midnight-year-logo {
+    padding: 67px 100px 68px 0;
+}
+
+.midnight-year-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.midnight-info .midnight-join-btn {
+    background-color: #070211;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 32px;
+}
+
+/* best gifts part style  */
+.gift-portfolio-container {
+    margin-top: 120px;
+}
+
+.gift-portfolio-container .portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.gift-portfolio-container .gift-description {
+    color: rgba(7, 2, 17, 0.60);
+    max-width: 67%;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+}
