@@ -91,45 +91,6 @@
     font-weight: 700;
 }
 
-/* midnight party secction's styel start  */
-
-/* .midnight-container {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    align-items: center;
-    gap: 94px;
-    border-radius: 16px;
-    padding: 68px 138px 67px 126px;
-}
-
-.midnight-info .midnight-title {
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
-    margin-bottom: 24px;
-}
-
-.midnight-info .midnight-description {
-    color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 18px;
-    margin-bottom: 48px;
-}
-
-.midnight-info .midnight-join-btn {
-    background-color: #070211;
-    border: none;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-} */
-
 .midnight-container {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
@@ -316,6 +277,6 @@ address {
 }
 
 hr {
-    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     margin-top: 50px;
 }
