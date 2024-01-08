@@ -28,6 +28,10 @@
     line-height: 32px;
 }
 
+.primary-color {
+    color: #F00;
+}
+
 /* banner part style here  */
 
 .banner {
@@ -160,7 +164,7 @@
     text-align: center;
 }
 
-.hotel-info-container h2 {
+.hotel-info-title {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -168,11 +172,7 @@
     line-height: 56px;
 }
 
-.hotel-info-container span {
-    color: #F00;
-}
-
-.hotel-info-container button {
+.hotel-join-btn {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -190,7 +190,7 @@
     margin-top: 120px;
     display: flex;
     align-items: last baseline;
-    gap: 100px;
+    gap: 150px;
     background: #FFF;
 }
 
@@ -203,7 +203,7 @@
 }
 
 .new-offer-info {
-    width: 80%;
+    width: 550px;
 }
 
 .new-offer-img img {
@@ -211,6 +211,10 @@
     border-radius: 463px;
     padding: 50px;
     border: 15px solid #F00;
+}
+
+.new-year-compliment {
+    width: 100%;
 }
 
 .year-title {
