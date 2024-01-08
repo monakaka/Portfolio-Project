@@ -91,6 +91,8 @@
     font-weight: 700;
 }
 
+
+/* midnight party section style  */
 .midnight-container {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
@@ -149,9 +151,11 @@
     display: flex;
     align-items: last baseline;
     gap: 100px;
+    background: #FFF;
 }
 
 .new-offer-info-img-container {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -159,7 +163,7 @@
 }
 
 .new-offer-info {
-    width: 70%;
+    width: 80%;
 }
 
 .new-offer-img img {
@@ -279,4 +283,5 @@ address {
 hr {
     border: 1px solid rgba(255, 255, 255, 0.15);
     margin-top: 50px;
+    margin-bottom: 50px;
 }
