@@ -141,8 +141,8 @@
 }
 
 .midnight-info {
-    width: 60%;
-    padding: 126px 0 142px 100px;
+    width: 70%;
+    padding: 100px 0 142px 100px;
 }
 
 .midnight-title {
@@ -180,6 +180,44 @@
     font-weight: 700;
     position: relative;
     left: 32px;
+}
+
+/* new-best-offer-part style start  */
+.new-best-offer-container {
+    margin-top: 120px;
+    display: flex;
+    align-items: last baseline;
+    gap: 100px;
+}
+
+.new-offer-info-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.new-offer-info {
+    width: 70%;
+}
+
+.new-offer-img img {
+    width: 75%;
+    border-radius: 463px;
+    padding: 50px;
+    border: 15px solid #F00;
+}
+
+.year-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.new-year-compliment>img {
+    margin-top: 43px;
 }
 
 /* best gifts part style  */
@@ -252,32 +290,32 @@ input[type="email"]:hover {
 .footer-section {
     margin-top: 120px;
     background: #070211;
-    padding: 120px 140px;
+    padding: 80px 80px;
 }
 
-.footer-section address,
-p {
+address {
+    font-style: normal;
+}
+
+.footer-section .address-and-contact-copyright {
+    display: flex;
+    justify-content: space-between;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px;
-}
-
-.footer-section .address-and-contact {
-    display: flex;
-    justify-content: space-between;
 }
 
 .footer-section .social-media-link {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 98px auto;
+    margin: 50px auto;
+    list-style: none;
 }
 
-.footer-section .copyright {
-    display: flex;
-    justify-content: space-between;
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
 }
